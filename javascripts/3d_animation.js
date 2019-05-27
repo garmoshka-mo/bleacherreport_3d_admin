@@ -188,7 +188,7 @@ function init() {
   button.addEventListener( 'click', sphere, false );
   function sphere() {
     mode = 'sphere'
-    transform( targets.sphere, 2000, { x: 1200, y: 100, z: 1500 } )
+    transform( targets.sphere, 2000, { x: 1500, y: 100, z: 1000 } )
   }
   sphere();
 

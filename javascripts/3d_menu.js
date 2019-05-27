@@ -6,8 +6,8 @@ else
 var MENU_DURATION = 2000
 var menuItems = []
 
-function gotoPanel(id) {
-  alert(`Panel ${id} isn't available in demo mode`)
+function gotoPanel(name) {
+  alert(`Panel ${name} isn't available in demo mode`)
 }
 
 function showMenu() {
@@ -63,12 +63,10 @@ function drawMenuItems() {
   yOffset -= 80;
 
   listAdminPanels(function (key, _props) {
-    var name = key.replace( /([A-Z])/g, " $1" )
     createMenuItem({
-      textContent: name,
-      className: 'glow-box menu-item',
-      href: '/goto/'+key+'/production'
-    })
+      textContent: _props.name,
+      className: 'glow-box menu-item'
+    }).onclick = gotoPanel.bind(this, _props.name)
     yOffset -= 120
     transparency -= 0.08
   })

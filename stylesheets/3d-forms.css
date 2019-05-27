@@ -10,8 +10,11 @@
 
 h2 {
   font-size: 21px;
-  letter-spacing: 9px;
+  letter-spacing: 2px;
   font-weight: 500;
+  text-align: right;
+  margin-right: -57px;
+  margin-top: -4px;
 }
 
 #auth-form input {
