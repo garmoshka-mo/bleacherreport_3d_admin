@@ -1,0 +1,73 @@
+#auth-form {
+    display: none;
+    color: rgba(255,255,255,0.75);
+    text-shadow: 0 0 10px rgba(0,255,255,0.95);
+    font-size: 50px;
+    font-family: "Tungsten Medium", Helvetica, sans-serif;
+    width: 212px;
+    margin: 24px 81px 44px;
+}
+
+h2 {
+  font-size: 21px;
+  letter-spacing: 9px;
+  font-weight: 500;
+}
+
+#auth-form input {
+    font-family: "Tungsten Medium", Helvetica, sans-serif;
+    font-size: 30px;
+    color: white;
+    background: rgba(0, 127, 127, 0.435294);
+    border: 1px solid rgba(63, 243, 243, 0.435294);
+}
+
+#auth-form #enter {
+    font-size: 25px;
+    padding: 4px 0 8px;
+    width: 200px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.element.control{
+    width: initial;
+    height: initial;
+}
+
+.form-control {
+  margin-bottom: 12px;
+  text-align: left;
+}
+.form-control input{
+  display: inline-block;
+}
+.form-control .label{
+  margin-bottom: -8px;
+  font-size: 34px;
+}
+
+.menu-item {
+    display: block;
+    color: rgba(255,255,255,0.75);
+    text-shadow: 0 0 10px rgba(0,255,255,0.95);
+    font-size: 60px;
+    padding: 20px;
+    min-width: 500px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#logout{
+  font-size: 26px;
+  min-width: 100px;
+  left: 205px;
+  padding: 3px 14px 8px;
+}
+
+#error{
+  font-size: 23px;
+  text-align: left;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.95);
+  padding: 5px;
+}

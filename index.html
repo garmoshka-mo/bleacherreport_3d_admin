@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head><title>📡 Welcome to Central Admin Panel, captain...</title>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" name="viewport"/>
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  <link rel="stylesheet" media="screen" href="/stylesheets/common.css?body=1"/>
+  <script src="/javascripts/jquery.js?body=1"></script>
+</head>
+<body>
+  <link rel="stylesheet" media="screen" href="/stylesheets/3d.css?body=1"/>
+  <link rel="stylesheet" media="screen" href="/stylesheets/3d-forms.css?body=1"/>
+  <script>
+    var isAuthenticated = false
+    var adminPanelsList = 'null'
+  </script>
+  <div id="container"></div>
+  <div id="info"><a href="http://threejs.org" target="_blank"> three.js css3d</a> |
+  <a href="https://plus.google.com/113862800338869870683/posts/QcFk5HrWran" target="_blank">template info</a></div>
+
+  <form id="auth-form"><h2>Authentication</h2>
+    <div class="form-control">
+      <div class="label">Login:</div>
+      <input id="login" name="login" type="text"/></div>
+    <div class="form-control">
+      <div class="label">Password:</div>
+      <input id="password" name="password" type="password"/></div>
+    <div class="hidden" id="error">Something went wrong</div>
+    <input id="enter" type="submit" value="Enter the system"/></form>
+  <div id="menu">
+    <button id="table">TABLE</button>
+    <button id="sphere">SPHERE</button>
+    <button id="helix" style="display:none"> HELIX</button>
+    <button id="grid">GRID</button>
+  </div>
+
+  <script src="/javascripts/libs/three.js?body=1"></script>
+  <script src="/javascripts/libs/tween.min.js?body=1"></script>
+  <script src="/javascripts/libs/TrackballControls.js?body=1"></script>
+  <script src="/javascripts/libs/CSS3DRenderer.js?body=1"></script>
+  <script src="/javascripts/3d_animation.js?body=1"></script>
+  <script src="/javascripts/login.js?body=1"></script>
+  <script src="/javascripts/3d_menu.js?body=1"></script>
+</body>
+</html>

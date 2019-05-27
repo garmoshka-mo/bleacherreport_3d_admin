@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Tungsten Medium";
+    src: url("fonts/tungsten-medium/tungsten-medium-webfont.eot");
+    src: url("fonts/tungsten-medium/tungsten-medium-webfont.eot?#iefix")format("embedded-opentype"),
+    url("fonts/tungsten-medium/tungsten-medium-webfont.woff") format("woff"),
+    url("fonts/tungsten-medium/tungsten-medium-webfont.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Tungsten Book";
+    src: url("fonts/tungsten-book/Tungsten-Book.eot");
+    src: url("fonts/tungsten-book/Tungsten-Book.eot?#iefix")format("embedded-opentype"),
+    url("fonts/tungsten-book/Tungsten-Book.woff") format("woff"),
+    url("fonts/tungsten-book/Tungsten-Book.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+.hidden {
+    display: none;
+}
+
+input:focus {
+    outline: none;
+}
