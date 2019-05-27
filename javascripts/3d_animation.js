@@ -4,22 +4,22 @@
 //= require 'libs/CSS3DRenderer'
 
 var table = [
-  "NFL", "Fermium", "(257)", 1, 1,
-  "NBA", "Fermium", "(257)", 9, 6,
-  "MLB", "Fermium", "(257)", 2, 6,
-  "CFB", "Mendelevium", "(258)", 9, 2,
-  "MMA", "Nobelium", "(259)", 3, 2,
-  "WWE", "Rutherfordium", "(267)", 4, 7,
-  "CBB", "Dubnium", "(268)", 5, 1,
-  "CFL", "Seaborgium", "(271)", 6, 7,
-  "Golf", "Bohrium", "(272)", 2, 3,
-  "Soccer", "Hassium", "(270)", 3, 4,
-  "WNBA", "Meitnerium", "(276)", 9, 7,
-  "F1", "Darmstadium", "(281)", 10, 6,
-  "Tennis", "Roentgenium", "(280)", 11, 4,
-  $('#auth-form'), "Ununoctium", "(294)", 6, 4,
-  "Boxing", "Copernicium", "(285)", 12, 6,
-  "NHL", "Lawrencium", "(262)", 10, 1,
+  "NFL", "Football", "(257)", 1, 1,
+  "NBA", "Basketball", "(257)", 9, 6,
+  "MLB", "Baseball", "(257)", 2, 6,
+  "CFB", "Football", "(258)", 9, 2,
+  "MMA", "Martial arts", "(259)", 3, 2,
+  "WWE", "Wrestling", "(267)", 4, 7,
+  "CBB", "Basketball", "(268)", 5, 1,
+  "CFL", "Football ", "(271)", 6, 7,
+  "Golf", "Golf", "(272)", 2, 3,
+  "Soccer", "Soccer", "(270)", 3, 4,
+  "WNBA", "Basketball ", "(276)", 9, 7,
+  "F1", "Racing", "(281)", 10, 6,
+  "Tennis", "Tennis", "(280)", 11, 4,
+  $('#auth-form'), "Login", "(294)", 6, 4,
+  "Boxing", "Boxing", "(285)", 12, 6,
+  "NHL", "Hockey", "(262)", 10, 1,
 ];
 
 var authPanel3dObject, authPanel3dTarget;
